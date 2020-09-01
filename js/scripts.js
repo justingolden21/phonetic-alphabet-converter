@@ -104,7 +104,7 @@ $( ()=> {
 	$('#download').click( ()=> {
 		let a = $('<a>')
 			.attr('href', 'img/table.png')
-			.attr('download', 'img.png')
+			.attr('download', 'phonetic alphabet table.png')
 			.appendTo('body');
 		a[0].click();
 		a.remove();
