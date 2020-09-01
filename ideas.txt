@@ -1,0 +1,9 @@
+- highlight each word of output and use arrow keys to move between which one is focused, can also click on them
+
+- quick copy button on output (because why not i guess)
+
+- make options for:
+* converting "@" to "at"
+* converting "." to "dot"
+* converting " " to "space"
+

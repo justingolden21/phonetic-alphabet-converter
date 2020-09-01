@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Phonetic Alphabet</title>
+<meta charset="utf-8">
+<meta name="title=" content="Phonetic Alphabet">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Easily convert your text into spelled out words that start with each letter using the phonetic alphabet to avoid confusion">
+<meta name="keywords" content="">
+<!-- <link rel="shortcut icon" href="img/icon.png"> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/scripts.js"></script>
+
+</head>
+<body class="text-center m-4">
+	<p>Phonetic Alphabet Utility</p>
+	<small>Hit <kbd>Enter</kbd> to convert</small>
+	<br><br>
+
+	<input autofocus id="input" class="form-control" type="text" value="joseph@email.com">
+
+	<div class="custom-control custom-checkbox">
+		<input checked type="checkbox" class="custom-control-input" id="checkbox">
+		<label class="custom-control-label" for="checkbox">Convert special characters</label>
+	</div>
+
+	<p id="output"></p>
+
+	<table id="table" class="table-striped table-hover table-sm"></table>
+
+	<button id="download" class="btn">Download table</button>
+</body>
+</html>
